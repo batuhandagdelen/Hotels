@@ -2,19 +2,24 @@
 
 Modern ve kullanıcı dostu bir otel yönetim platformudur. Türkiye genelindeki konaklama yerlerini arayabileceğiniz, detaylı bilgileri inceleyebileceğiniz, filtreleyebileceğiniz ve yönetebileceğiniz responsive web uygulamasıdır.
 
+# 📷 Ekran Görüntüsü
+
+![EkranKayd2026-02-0319 23 02-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/27f96a9a-51f5-445d-8f4a-0a2bae327f83)
+
+
 ## 🛠️ Kullanılan Teknolojiler
 
-- **React 19** - Modern UI kütüphanesi
-- **TypeScript** - Tip güvenliği ve kod kalitesi
-- **Vite** - Hızlı geliştirme ve build aracı
-- **Tailwind CSS** - Utility-first CSS framework
-- **@tanstack/react-query** - Veri senkronizasyonu ve cache yönetimi
-- **React Router DOM** - Client-side routing
-- **Formik** - Form yönetimi
-- **Yup** - Schema validasyonu
-- **Axios** - HTTP client
-- **React Toastify** - Toast bildirimleri
-- **Lucide React** - Icon kütüphanesi
+- **React 19** 
+- **TypeScript** 
+- **Vite** 
+- **Tailwind CSS** 
+- **@tanstack/react-query** 
+- **React Router DOM** 
+- **Formik** 
+- **Yup** 
+- **Axios** 
+- **React Toastify** 
+- **Lucide React** 
 
 ## ⭐ Özellikler
 
@@ -30,56 +35,6 @@ Modern ve kullanıcı dostu bir otel yönetim platformudur. Türkiye genelindeki
 - ⚡ **Hızlı Performans** - Vite ve React Query cache
 - 🔔 **Toast Bildirimleri** - Kullanıcı geri bildirimi
 - ⏳ **Loading States** - Skeleton loader ve loading göstergeleri
-
-## 📦 Kurulum
-
-### Gereksinimler
-
-- Node.js (v18+)
-- npm veya yarn
-
-### Kurulum Adımları
-
-**Backend:**
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-**Frontend:**
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend `http://localhost:5173` adresinde çalışacaktır.
-
-## 📁 Proje Yapısı
-
-```
-frontend/
-├── src/
-│   ├── components/
-│   │   ├── card/              # Otel kartı
-│   │   ├── error/             # Error handling
-│   │   ├── header/            # Navbar
-│   │   └── loader/            # Loading
-│   ├── pages/
-│   │   ├── home/              # Ana sayfa ve filtreleme
-│   │   ├── detail/            # Otel detayları
-│   │   └── form/              # Yeni otel ekleme
-│   ├── services/
-│   │   ├── api.ts             # Axios config
-│   │   └── hooks.ts           # React Query hooks
-│   ├── types/                 # TypeScript types
-│   ├── constants/             # Sabitler ve schemas
-│   └── App.tsx
-└── package.json
-```
 
 ## 💡 Teknik Özellikler
 
